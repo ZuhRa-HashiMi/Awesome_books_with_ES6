@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <title>Awsome Books</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><p>Awesome Books</p></div>
+      <ul class="navbar">
+        <li ><a href="#list" id="list-link" class="links active">List</a></li>
+        <li ><a href="#add_book" id="add-link" class="links">Add new</a></li>
+        <li ><a href="#contact" id="contact-link" class="links">Contact</a></li>
+      </ul>
+    </header>
+    
+    <main>
+      <!-- Header Section -->
+      <div class="time"></div>
+      
+       <section id="message-container">
+        
+          </section>
+      
+      <!-- List Section -->
+      <section class="books_container" id="list">
+         <h1>Awesome books</h1>
+        <div>
+        
+          
+          <table class="books_table"> 
+           <thead>
+            <tr class="line_hd">
+             <th>Title</th>
+             <th>Author</th>
+             <th>Action</th>
+            </tr>
+          </thead>
+      <!--- List of all the books -->
+        </table> 
+        </div>
+      </section>
+     
+    <section id="add_book" >
+      <h2>Add a new book</h2>
+      <div id="add" class="add-new section hidden">
+        
+        <form action="#" method="get" id="book-form">
+          
+          <input
+            type="text"
+            id="title"
+            class="text-inpute"
+            placeholder="Title"
+          />
+          <input
+            type="text"
+            id="author"
+            class="text-inpute"
+            placeholder="Author"
+          />
+          <button type="submit" id="button">Add</button>
+        </form>
+        <span id="error"></span>
+      </div>
+    </section>
+      
+     <!-- Contact Section -->
+
+     <section id="contact" class="contact-us ">
+      <h2>Contact Information</h2>
+      <p>
+        Do have any question or you just want to say "hello" <br />
+        You can Reach out to us!
+      </p>
+      <ul>
+        <li>Our E-mail: books@awesome.com</li>
+        <li>Our Phone Number: 003311223344</li>
+        <li>Our Adress: John Doe street, 22, 883322 Vikings, Valhala</li>
+      </ul>
+     </section>
+    <!-- Footer Section -->
+    <footer><p>Copyright: All rights reserved</p></footer>
+    </main>
+   
+     <script  type="module" src="index.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/luxon@1.25.0/build/global/luxon.min.js"></script>
+  </body>
+</html>
