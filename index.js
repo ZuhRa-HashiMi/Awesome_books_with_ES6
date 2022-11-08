@@ -9,7 +9,6 @@ startTime();
 
 const links = document.querySelectorAll('.links');
 links.forEach((element) => {
-  // eslint-disable-next-line func-names
   element.addEventListener('click', function () {
     showBlock(element.id);
     const current = document.getElementsByClassName('active');
