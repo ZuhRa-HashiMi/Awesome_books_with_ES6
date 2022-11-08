@@ -1,7 +1,6 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable no-undef */
-/* eslint-disable linebreak-style */
-export default function snaker(type, mes, time) {
+export default snaker = (type, mes, time) => {
   const para = document.createElement('p');
   para.classList.add('snakbar');
   para.innerHTML = `${mes} `;
@@ -17,4 +16,4 @@ export default function snaker(type, mes, time) {
   setTimeout(() => {
     snakbar.removeChild(para);
   }, time);
-}
+};

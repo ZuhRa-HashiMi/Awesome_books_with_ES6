@@ -1,9 +1,5 @@
 /* eslint-disable linebreak-style */
-/* eslint-disable indent */
-/* eslint-disable linebreak-style */
-/* eslint-disable no-unused-vars */
-/* eslint-disable linebreak-style */
- export default class Books {
+export default class Books {
   constructor(title = '', author = '') {
     this.title = title;
     this.author = author;

@@ -1,12 +1,4 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable no-unused-vars */
-/* eslint-disable import/no-unresolved */
-/* eslint-disable linebreak-style */
-/* eslint-disable no-trailing-spaces */
-/* eslint-disable linebreak-style */
 /* eslint-disable func-names */
-/* eslint-disable semi */
-/* eslint-disable linebreak-style */
 /* eslint-disable import/extensions */
 import Books from './modules/Book';
 import snaker from './modules/flashMessage';
@@ -14,8 +6,7 @@ import showBlock from './modules/navbar';
 import removeBk from './modules/removeBook';
 import startTime from './modules/setTime';
 
-startTime() 
-
+startTime();
 // navbar section
 
 const links = document.querySelectorAll('.links');

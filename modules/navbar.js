@@ -1,6 +1,6 @@
 /* eslint-disable linebreak-style */
-
-export default function showBlock(e) {
+/* eslint-disable no-undef */
+export default showBlock = (e) => {
   const sectionList = document.getElementById('list');
   const sectionAdd = document.getElementById('add_book');
   const sectionContact = document.getElementById('contact');
@@ -29,4 +29,4 @@ export default function showBlock(e) {
       sectionContact.style.display = 'none';
       break;
   }
-}
+};
