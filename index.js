@@ -1,16 +1,15 @@
-/* eslint-disable func-names */
-/* eslint-disable import/extensions */
-import Books from './modules/Book';
-import snaker from './modules/flashMessage';
-import showBlock from './modules/navbar';
-import removeBk from './modules/removeBook';
-import startTime from './modules/setTime';
+import Books from './modules/Book.js';
+import snaker from './modules/flashMessage.js';
+import showBlock from './modules/navbar.js';
+import removeBk from './modules/removeBook.js';
+import startTime from './modules/setTime.js';
 
 startTime();
 // navbar section
 
 const links = document.querySelectorAll('.links');
 links.forEach((element) => {
+  // eslint-disable-next-line func-names
   element.addEventListener('click', function () {
     showBlock(element.id);
     const current = document.getElementsByClassName('active');

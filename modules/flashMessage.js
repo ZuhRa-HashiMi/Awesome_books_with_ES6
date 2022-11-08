@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 /* eslint-disable no-undef */
 export default snaker = (type, mes, time) => {
   const para = document.createElement('p');
