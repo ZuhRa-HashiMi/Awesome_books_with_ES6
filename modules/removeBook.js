@@ -1,4 +1,4 @@
-
+/* eslint-disable no-undef */
 import Books from './Book.js';
 import snaker from './flashMessage.js';
 

@@ -1,4 +1,4 @@
-
+/* eslint-disable no-undef */
 export default showBlock = (e) => {
   const sectionList = document.getElementById('list');
   const sectionAdd = document.getElementById('add_book');
