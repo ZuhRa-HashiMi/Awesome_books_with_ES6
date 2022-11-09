@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-export default snaker = (type, mes, time) => {
+const snaker = (type, mes, time) => {
   const para = document.createElement('p');
   para.classList.add('snakbar');
   para.innerHTML = `${mes} `;
@@ -16,3 +16,4 @@ export default snaker = (type, mes, time) => {
     snakbar.removeChild(para);
   }, time);
 };
+export default snaker;

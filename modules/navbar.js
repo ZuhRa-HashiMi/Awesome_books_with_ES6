@@ -1,5 +1,4 @@
-/* eslint-disable no-undef */
-export default showBlock = (e) => {
+const showBlock = (e) => {
   const sectionList = document.getElementById('list');
   const sectionAdd = document.getElementById('add_book');
   const sectionContact = document.getElementById('contact');
@@ -29,3 +28,4 @@ export default showBlock = (e) => {
       break;
   }
 };
+export default showBlock;
