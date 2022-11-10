@@ -32,14 +32,13 @@ const title = document.getElementById('title');
 const author = document.getElementById('author');
 
 document.querySelector('#book-form').addEventListener('submit', (e) => {
+  e.preventDefault();
   if (title.value === '' || author.value === '') {
     snaker(
       'error',
       '<b>Error:</b> Title and Author fields must be filled out',
       4000,
     );
-
-    e.preventDefault();
   } else {
     const addBk = new Books(title.value, author.value);
     addBk.addBook();

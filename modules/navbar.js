@@ -6,6 +6,7 @@ const showBlock = (e) => {
   const sectionContact = document.getElementById('contact');
   switch (e) {
     case 'list-link':
+      window.location.reload();
       sectionList.style.display = 'block';
       sectionAdd.style.display = 'none';
       sectionContact.style.display = 'none';
