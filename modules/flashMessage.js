@@ -1,5 +1,6 @@
-/* eslint-disable no-undef */
-const snaker = (type, mes, time) => {
+/* flash messages */
+export default function snaker(type, mes, time) {
+  const snakbar = document.getElementById('message-container');
   const para = document.createElement('p');
   para.classList.add('snakbar');
   para.innerHTML = `${mes} `;
@@ -15,5 +16,4 @@ const snaker = (type, mes, time) => {
   setTimeout(() => {
     snakbar.removeChild(para);
   }, time);
-};
-export default snaker;
+}
