@@ -1,7 +1,9 @@
-const showBlock = (e) => {
-  const sectionList = document.getElementById('list-link');
-  const sectionAdd = document.getElementById('add-link');
-  const sectionContact = document.getElementById('contact-link');
+// navbar section
+
+export default function showBlock(e) {
+  const sectionList = document.getElementById('list');
+  const sectionAdd = document.getElementById('add_book');
+  const sectionContact = document.getElementById('contact');
   switch (e) {
     case 'list-link':
       sectionList.style.display = 'block';
@@ -27,5 +29,4 @@ const showBlock = (e) => {
       sectionContact.style.display = 'none';
       break;
   }
-};
-export default showBlock;
+}
