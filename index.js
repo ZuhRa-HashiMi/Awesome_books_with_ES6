@@ -1,11 +1,12 @@
-import Books from './modules/Book.js';
+import Books from './modules/Books.js';
 import snaker from './modules/flashMessage.js';
 import showBlock from './modules/navbar.js';
 import removeBk from './modules/removeBook.js';
 import startTime from './modules/setTime.js';
 
 startTime();
-// navbar section
+
+// navbar sectin
 
 const links = document.querySelectorAll('.links');
 links.forEach((element) => {
@@ -49,7 +50,7 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
   }
 });
 
-// Remove book function
+// Remove book
 
 const btn = document.querySelectorAll('.btn');
 btn.forEach((element) => {
