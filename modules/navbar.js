@@ -1,6 +1,6 @@
 // navbar section
 
-export default function showBlock(e) {
+const showBlock = (e) => {
   const sectionList = document.getElementById('list');
   const sectionAdd = document.getElementById('add_book');
   const sectionContact = document.getElementById('contact');
@@ -29,4 +29,5 @@ export default function showBlock(e) {
       sectionContact.style.display = 'none';
       break;
   }
-}
+};
+export default showBlock;

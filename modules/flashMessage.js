@@ -1,5 +1,4 @@
-/* flash messages */
-export default function snaker(type, mes, time) {
+const snaker = (type, mes, time) => {
   const snakbar = document.getElementById('message-container');
   const para = document.createElement('p');
   para.classList.add('snakbar');
@@ -16,4 +15,5 @@ export default function snaker(type, mes, time) {
   setTimeout(() => {
     snakbar.removeChild(para);
   }, time);
-}
+};
+export default snaker;
