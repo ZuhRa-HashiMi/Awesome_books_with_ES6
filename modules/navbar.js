@@ -1,7 +1,7 @@
 const showBlock = (e) => {
-  const sectionList = document.getElementById('list');
-  const sectionAdd = document.getElementById('add_book');
-  const sectionContact = document.getElementById('contact');
+  const sectionList = document.getElementById('list-link');
+  const sectionAdd = document.getElementById('add-link');
+  const sectionContact = document.getElementById('contact-link');
   switch (e) {
     case 'list-link':
       sectionList.style.display = 'block';

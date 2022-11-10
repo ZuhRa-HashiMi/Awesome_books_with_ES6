@@ -116,7 +116,7 @@ table tr:nth-child(even) {
 }
 
 #add_book {
-  display: none;
+  display: none; 
   width: 45%;
   margin-top: -100px;
   text-align: center;
